@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    margin-top: 1.5rem;
+}
+
+#user-chat {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#user-message,
+#task-name {
+    width: 70%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
